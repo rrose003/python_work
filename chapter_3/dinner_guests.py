@@ -46,6 +46,43 @@ uninvite_message = 'I\'m so sorry, I can only have two people come to dinner tom
 print(f'{uninvite_guest_1.title()}, ' + uninvite_message + '\n')
 
 print(dinner_guests)
+print('\n')
+
+uninvite_guest_2 = dinner_guests.pop(1)
+print(f'{uninvite_guest_2.title()}, ' + uninvite_message + '\n')
+
+print(dinner_guests)
+print('\n')
+
+uninvite_guest_3 = dinner_guests.pop(3)
+print(f'{uninvite_guest_3.title()}, ' + uninvite_message + '\n')
+
+print(dinner_guests)
+print('\n')
+
+uninvite_guest_4 = dinner_guests.pop(1)
+print(f'{uninvite_guest_4.title()}, ' + uninvite_message + '\n')
+
+print(dinner_guests)
+print('\n')
+
+final_message = 'You are still invited! I hope to see you tomorrow at 6 pm.'
+
+print(f'{dinner_guests[0].title()}! ' + final_message + '\n')
+print(f'{dinner_guests[1].title()}! ' + final_message + '\n')
+
+print(dinner_guests)
+print('\n')
+
+del dinner_guests[0]
+print(dinner_guests)
+print('\n')
+
+del dinner_guests[0]
+print(dinner_guests)
+print('\n')
+
+
 
 
 
