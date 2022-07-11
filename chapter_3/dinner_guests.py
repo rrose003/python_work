@@ -40,7 +40,12 @@ print(f'{dinner_guests[5].title()}, ' + invite_message + '\n')
 
 print('Oh, no! My new table won\'t fit, so I can only invite two people!\n')
 
+uninvite_guest_1 = dinner_guests.pop(0)
+uninvite_message = 'I\'m so sorry, I can only have two people come to dinner tomorrow so I\'ll have to have you come another time.'
 
+print(f'{uninvite_guest_1.title()}, ' + uninvite_message + '\n')
+
+print(dinner_guests)
 
 
 
